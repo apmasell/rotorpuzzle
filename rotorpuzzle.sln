@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotorpuzzle", "rotorpuzzle\rotorpuzzle.csproj", "{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotorpuzzler", "rotorpuzzler\rotorpuzzler.csproj", "{9B11518C-890E-40FC-9980-90842AA830E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}.Debug|x86.Build.0 = Debug|x86
 		{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}.Release|x86.ActiveCfg = Release|x86
 		{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}.Release|x86.Build.0 = Release|x86
+		{9B11518C-890E-40FC-9980-90842AA830E9}.Debug|x86.ActiveCfg = Debug|x86
+		{9B11518C-890E-40FC-9980-90842AA830E9}.Debug|x86.Build.0 = Debug|x86
+		{9B11518C-890E-40FC-9980-90842AA830E9}.Release|x86.ActiveCfg = Release|x86
+		{9B11518C-890E-40FC-9980-90842AA830E9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = rotorpuzzle\rotorpuzzle.csproj
