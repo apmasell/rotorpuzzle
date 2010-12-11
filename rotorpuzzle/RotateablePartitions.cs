@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 namespace name.masella.rotorpuzzle {
-	class RotateablePartitions {
+	public class RotateablePartitions {
 		public static IEnumerable<int[]> Of(int samples, int rotorsize) {
 			foreach(var partitions in Partitions.Of(samples)) {
 				if(IsRotateable(partitions, rotorsize)) {

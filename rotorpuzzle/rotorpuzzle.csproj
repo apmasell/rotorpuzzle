@@ -6,7 +6,7 @@
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>name.masella.rotorpuzzle</RootNamespace>
     <AssemblyName>rotorpuzzle</AssemblyName>
   </PropertyGroup>
@@ -32,10 +32,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Partitions.cs" />
     <Compile Include="RotateablePartitions.cs" />
