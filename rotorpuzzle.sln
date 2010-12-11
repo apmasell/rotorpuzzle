@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotorpuzzle", "rotorpuzzle\rotorpuzzle.csproj", "{0DDA2AE0-E81B-400C-8D44-ED52CC2F4B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotorweb", "rotorweb\rotorweb.csproj", "{D3B65371-3B77-4555-A19B-BF07EBB8FE5E}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rotorpuzzler", "rotorpuzzler\rotorpuzzler.csproj", "{9B11518C-890E-40FC-9980-90842AA830E9}"
 EndProject
 Global
@@ -19,6 +21,10 @@ Global
 		{9B11518C-890E-40FC-9980-90842AA830E9}.Debug|x86.Build.0 = Debug|x86
 		{9B11518C-890E-40FC-9980-90842AA830E9}.Release|x86.ActiveCfg = Release|x86
 		{9B11518C-890E-40FC-9980-90842AA830E9}.Release|x86.Build.0 = Release|x86
+		{D3B65371-3B77-4555-A19B-BF07EBB8FE5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3B65371-3B77-4555-A19B-BF07EBB8FE5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3B65371-3B77-4555-A19B-BF07EBB8FE5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3B65371-3B77-4555-A19B-BF07EBB8FE5E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = rotorpuzzle\rotorpuzzle.csproj
