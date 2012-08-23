@@ -1,5 +1,5 @@
-
 using System;
+using System.Collections;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
@@ -11,7 +11,7 @@ namespace name.masella.rotorpuzzle {
 
 		private const int ROTORDIAMETRE = 400;
 
-		private bool[] BuildRotor(int samples, int rotorslots) {
+		private BitArray BuildRotor(int samples, int rotorslots) {
 			foreach(var partitions in RotateablePartitions.Of(samples, rotorslots)) {
 				foreach(var rotor in Configurations.Of(partitions, rotorslots)) {
 					return rotor;

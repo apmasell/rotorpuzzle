@@ -14,7 +14,7 @@ namespace name.masella.rotorpuzzle {
 						if(rotor != null) {
 							Console.Write('|');
 
-							foreach(var v in rotor) {
+							foreach(bool v in rotor) {
 								Console.Write(v ? 'X' : ' ');
 							}
 
